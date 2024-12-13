@@ -23,49 +23,91 @@ h1 {
     margin-top: -10px;
     margin-left: -10px; 
     margin-right: -8px; 
-    /* width: 90%;  */
     height: 8vh; 
     border-radius: 0px 0px 20px 20px;
     padding-top: 25px; 
     padding-bottom: 10px; 
     padding-left: 30px; 
-    /* padding-left: 10px; 
-    
-    padding-right: -20px; */
-
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #f6c983;
 }
 
 body {
-    background-color: #f6c983;
-    
+    background-color: #f6f0e8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.images2 {
+    position: relative; 
+    left: 40%; 
+    right: auto; 
+}
 
-/* img {
-    margin-left: 40%; 
-    margin-bottom: 50px;
-    margin-right: 40%;
-    margin-top: 30px;
-} */
+.primary h2, .secondary h2, .neutral h2, .warm h2, .cool h2, .pastel h2, .earth h2, .neon h2{
+    text-align: center;
+    margin-top: 30px; 
+    text-decoration: underline;
+    text-decoration-color: #f6c983;
+}
 
-/* h2, p{
-    background-color: #f6f0e8;
-    margin-top: -20px;
-    padding: 10px;
-    
-} */
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
 
+.about-colors{
+    /* border: solid;  */
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background: rgba(246, 201, 131, 0.3); 
+    border-radius: 20px;
+}
 
-table{
+.about-colors p{
+    padding: 15px; 
+}
+
+.content{
+    /* border: solid;  */
+    background: rgba(215, 172, 209, 0.3); 
+    border-radius: 20px;
+}
+
+.content p, .content h2{
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.content h2{
+    padding-top: 20px;
+}
+
+.content p{
+    padding-bottom: 20px; 
+}
+
+table {
+    border: solid; 
+    border-color: #d7acd1;
     background-color: #f6f0e8;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    
-}
+    border-width: 10px;
+    border-radius: 20px;
+} 
 
 td{
+    border: solid; 
     padding: 5px; 
+    border-color: #d7acd1;
+    border-width: 5px;
+
+}
+
+tr, th {
+    border: solid; 
+    border-color: #d7acd1;
+    border-width: 5px;
 }
